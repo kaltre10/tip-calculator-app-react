@@ -87,10 +87,16 @@ h1 span {
   color: hsl(183, 100%, 15%);
   font-family: "Space Mono", monospace;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .reset button:hover {
   background-color: hsl(185, 41%, 84%);
+}
+
+.reset-disabled button{
+  pointer-events: none;
+  background-color: hsla(172, 15%, 62%, 0.466);
 }
 
 .sub-title {

@@ -25,7 +25,7 @@ const ContainerInput = ({
       setErrorPeople(true);
     }
     if (bill === 0 || people === 0) return;
-    calcular(bill, people, percentage);
+    calcular(percentage);
   };
 
   const handleBill = (value) => {

@@ -1,24 +1,19 @@
 import "./styles.css";
-import Calculator from "./components/Calculator";
 import ContainerInput from "./components/ContainerInput";
 import ContainerResult from "./components/ContainerResult";
 import { useState } from "react";
+import calcularResult from './utils/calcularResult';
 
 export default function App() {
-  const [result, setResult] = useState({
-    amount: 0,
-    total: 0
-  });
 
+  const [result, setResult] = useState({amount: 0,total: 0});
   const [errorBill, setErrorBill] = useState(false);
   const [errorPeople, setErrorPeople] = useState(false);
-
   const [bill, setBill] = useState(0);
   const [people, setPeople] = useState(0);
 
-  const calcular = (bill, people, percentage) => {
-    const amount = ((bill * (Number(percentage) / 100)) / people).toFixed(2);
-    const total = (bill / people + Number(amount)).toFixed(2);
+  const calcular = (percentage) => {
+    const {amount, total} = calcularResult(bill, people, percentage);
     setResult({ amount, total });
   };
 
@@ -26,13 +21,13 @@ export default function App() {
     document.querySelectorAll("input").forEach((element) => {
       element.value = "";
     });
+  
     if (document.getElementById("bill").classList.contains("row-input-error")) {
       document.getElementById("bill").classList.remove("row-input-error");
       setErrorBill(false);
     }
-    if (
-      document.getElementById("people").classList.contains("row-input-error")
-    ) {
+  
+    if (document.getElementById("people").classList.contains("row-input-error")) {
       document.getElementById("people").classList.remove("row-input-error");
       setErrorPeople(false);
     }
@@ -43,10 +38,11 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>
-        SPLI<span>TTER</span>
-      </h1>
-      <Calculator>
+
+      <h1>SPLI<span>TTER</span></h1>
+
+      <div className="calculator">
+
         <ContainerInput
           calcular={calcular}
           errorBill={errorBill}
@@ -58,8 +54,15 @@ export default function App() {
           people={people}
           setPeople={setPeople}
         />
-        <ContainerResult result={result} reset={reset} />
-      </Calculator>
+          
+        <ContainerResult 
+          result={result} 
+          reset={reset} 
+          bill={bill}
+          people={people}
+        />
+
+      </div>
     </div>
   );
 }

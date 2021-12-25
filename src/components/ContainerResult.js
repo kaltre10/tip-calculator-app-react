@@ -1,4 +1,4 @@
-const ContainerResult = ({ result, reset }) => {
+const ContainerResult = ({ result, reset, bill, people }) => {
   return (
     <div className="container-result">
       <div>
@@ -17,8 +17,10 @@ const ContainerResult = ({ result, reset }) => {
           <div className="result-total style-number">{result.total}</div>
         </div>
       </div>
-      <div className="reset">
-        <button onClick={() => reset()}>Reset</button>
+      <div className={`reset ${(!Boolean(bill) && !Boolean(people)) && 'reset-disabled'}`}>
+        <button 
+          onClick={() => reset()}
+        >Reset</button>
       </div>
     </div>
   );
