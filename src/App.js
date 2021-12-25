@@ -1,6 +1,7 @@
 import "./styles.css";
 import ContainerInput from "./components/ContainerInput";
 import ContainerResult from "./components/ContainerResult";
+import Calculator from './components/Calculator'
 import { useState } from "react";
 import calcularResult from './utils/calcularResult';
 
@@ -41,28 +42,24 @@ export default function App() {
 
       <h1>SPLI<span>TTER</span></h1>
 
-      <div className="calculator">
+      <Calculator
+        bill={bill}
+        people={people}
+        result={result} 
+        reset={reset} 
+        calcular={calcular}
+        errorBill={errorBill}
+        setErrorBill={setErrorBill}
+        errorPeople={errorPeople}
+        setErrorPeople={setErrorPeople}
+        setBill={setBill}
+        setPeople={setPeople}
+      >
 
-        <ContainerInput
-          calcular={calcular}
-          errorBill={errorBill}
-          setErrorBill={setErrorBill}
-          errorPeople={errorPeople}
-          setErrorPeople={setErrorPeople}
-          bill={bill}
-          setBill={setBill}
-          people={people}
-          setPeople={setPeople}
-        />
-          
-        <ContainerResult 
-          result={result} 
-          reset={reset} 
-          bill={bill}
-          people={people}
-        />
+        <ContainerInput/>    
+        <ContainerResult/>
 
-      </div>
+      </Calculator>
     </div>
   );
 }
