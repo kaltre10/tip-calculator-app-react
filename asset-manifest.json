@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kaltre10/tip-calculator-app-react/static/css/main.3ebb0d05.chunk.css",
-    "main.js": "/kaltre10/tip-calculator-app-react/static/js/main.33613109.chunk.js",
-    "main.js.map": "/kaltre10/tip-calculator-app-react/static/js/main.33613109.chunk.js.map",
-    "runtime-main.js": "/kaltre10/tip-calculator-app-react/static/js/runtime-main.427d0cf1.js",
-    "runtime-main.js.map": "/kaltre10/tip-calculator-app-react/static/js/runtime-main.427d0cf1.js.map",
-    "static/js/2.55ed61c8.chunk.js": "/kaltre10/tip-calculator-app-react/static/js/2.55ed61c8.chunk.js",
-    "static/js/2.55ed61c8.chunk.js.map": "/kaltre10/tip-calculator-app-react/static/js/2.55ed61c8.chunk.js.map",
-    "index.html": "/kaltre10/tip-calculator-app-react/index.html",
-    "static/css/main.3ebb0d05.chunk.css.map": "/kaltre10/tip-calculator-app-react/static/css/main.3ebb0d05.chunk.css.map",
-    "static/js/2.55ed61c8.chunk.js.LICENSE.txt": "/kaltre10/tip-calculator-app-react/static/js/2.55ed61c8.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.3ebb0d05.chunk.css",
+    "main.js": "/static/js/main.e25e5d9c.chunk.js",
+    "main.js.map": "/static/js/main.e25e5d9c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7eb1f0f7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7eb1f0f7.js.map",
+    "static/js/2.416cb476.chunk.js": "/static/js/2.416cb476.chunk.js",
+    "static/js/2.416cb476.chunk.js.map": "/static/js/2.416cb476.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3ebb0d05.chunk.css.map": "/static/css/main.3ebb0d05.chunk.css.map",
+    "static/js/2.416cb476.chunk.js.LICENSE.txt": "/static/js/2.416cb476.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.427d0cf1.js",
-    "static/js/2.55ed61c8.chunk.js",
+    "static/js/runtime-main.7eb1f0f7.js",
+    "static/js/2.416cb476.chunk.js",
     "static/css/main.3ebb0d05.chunk.css",
-    "static/js/main.33613109.chunk.js"
+    "static/js/main.e25e5d9c.chunk.js"
   ]
 }
