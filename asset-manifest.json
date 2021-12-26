@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ebb0d05.chunk.css",
-    "main.js": "/static/js/main.e25e5d9c.chunk.js",
-    "main.js.map": "/static/js/main.e25e5d9c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7eb1f0f7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7eb1f0f7.js.map",
-    "static/js/2.416cb476.chunk.js": "/static/js/2.416cb476.chunk.js",
-    "static/js/2.416cb476.chunk.js.map": "/static/js/2.416cb476.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.3ebb0d05.chunk.css.map": "/static/css/main.3ebb0d05.chunk.css.map",
-    "static/js/2.416cb476.chunk.js.LICENSE.txt": "/static/js/2.416cb476.chunk.js.LICENSE.txt"
+    "main.css": "/tip-calculator-app-react/static/css/main.3ebb0d05.chunk.css",
+    "main.js": "/tip-calculator-app-react/static/js/main.e25e5d9c.chunk.js",
+    "main.js.map": "/tip-calculator-app-react/static/js/main.e25e5d9c.chunk.js.map",
+    "runtime-main.js": "/tip-calculator-app-react/static/js/runtime-main.1300ddb5.js",
+    "runtime-main.js.map": "/tip-calculator-app-react/static/js/runtime-main.1300ddb5.js.map",
+    "static/js/2.416cb476.chunk.js": "/tip-calculator-app-react/static/js/2.416cb476.chunk.js",
+    "static/js/2.416cb476.chunk.js.map": "/tip-calculator-app-react/static/js/2.416cb476.chunk.js.map",
+    "index.html": "/tip-calculator-app-react/index.html",
+    "static/css/main.3ebb0d05.chunk.css.map": "/tip-calculator-app-react/static/css/main.3ebb0d05.chunk.css.map",
+    "static/js/2.416cb476.chunk.js.LICENSE.txt": "/tip-calculator-app-react/static/js/2.416cb476.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7eb1f0f7.js",
+    "static/js/runtime-main.1300ddb5.js",
     "static/js/2.416cb476.chunk.js",
     "static/css/main.3ebb0d05.chunk.css",
     "static/js/main.e25e5d9c.chunk.js"
